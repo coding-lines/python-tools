@@ -16,7 +16,7 @@ class logicgates():
 
 
 
-class arraytools():
+class arrtools():
 
     #This function will turn your array into a string. [INPUTS: ARRAY ; OUTPUTS: STRING]
     def arrtostr(arr):
@@ -25,19 +25,18 @@ class arraytools():
         return( "".join(arr))
     
     #This function will calculate the average value of all values in an array [INPUTS: ARRAY OF INTEGERS OR FLOATS ; OUTPUTS: AVERAGE NUMBER AS FLOAT]
-    def array_avg(arr):
+    def arr_avg(arr):
         avg_cache = 0
         try:
             for item in range(0,len(arr)):
                 avg_cache = avg_cache + arr[item]
             return( avg_cache / len(arr))
-            del avg_cache
         except:
             print("Data Type Error: Only run array_avg int or float arrays!")
             return(0)
         
     #This function will add up all values of an array. [INPUTS : ARRAY OF INTEGERS OR FLOATS ; OUTPUTS: SUM AS INTEGER OR FLOAT]
-    def array_add(arr):
+    def arr_add(arr):
         add_cache = 0
         try:
             for item in range(0,len(arr)):
@@ -48,17 +47,17 @@ class arraytools():
             return(0)
             
     #This function will create an array consisting of random numbers. [INPUTS: LENGTH OF THE ARRAY AS INTEGER , LOWEST POSSIBLE RANDOM NUMBER , HIGHEST POSSIBLE RANDOM NUMBER ; OUTPUTS: ARRAY CONSISTING OF RANDOM INTEGERS.]
-    def array_randint(count,frm,to):
+    def arr_randint(count,frm,to):
         arr_cache = []
         for item in range(0,count):
             arr_cache = arr_cache + [(__import__("random").randint(frm,to))]
         return arr_cache
 
 
-class stringtools():
+class strtools():
     
     #This function will remove all spaces from a string. [INPUTS: STRING ; OUTPUTS: RESULT AS STRING]
-    def removespaces(inputstr):
+    def rmspaces(inputstr):
         try:
             inputstr = inputstr.split(" ")
             return("".join(inputstr))
