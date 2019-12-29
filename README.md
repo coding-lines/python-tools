@@ -1,5 +1,5 @@
 # python-tools
-An importable Python toolbox with tools for arrays, strings and simulated logic gates.
+<b>An importable Python toolbox with tools for arrays, strings and simulated logic gates.</b>
 
 Classes:
 logicgates - Contains simulated AND,OR,NOT,XOR,NAND,XNOR, and NOR gates.
@@ -8,7 +8,7 @@ strtools - Contains string operations like removing spaces, reading files in one
 
 Functions:
 
-logicgates:
+<b>logicgates:</b>
 
 l_[THE GATE YOU WANT TO SIMULATE]([INPUT1],(depending on logical gate [INPUT2]))
 
@@ -20,15 +20,15 @@ You can also input Booleans directly
 
 
 
-arrtools:
+<b>arrtools:</b>
 
-arrtostr(ARRAY)
+arrtostr(ARRAY) 
 Joins all elements of an array together.  [INPUTS: ARRAY ; OUTPUTS: STRING]
 
 arr_avg(ARRAY)
 This function will calculate the average value of all values in an array.  [INPUTS: ARRAY OF INTEGERS OR FLOATS ; OUTPUTS: AVERAGE NUMBER AS FLOAT]
 
-arr_add(ARRAY) 
+arr_add(ARRAY)
 This function will add up all values of an array.  [INPUTS : ARRAY OF INTEGERS OR FLOATS ; OUTPUTS: SUM AS INTEGER OR FLOAT]
 
 arr_randint(LENGTH,FROM,TO)
@@ -36,7 +36,7 @@ This function will create an array consisting of random numbers. [INPUTS: LENGTH
 
 
 
-strtools:
+<b>strtools:</b>
 
 rmspaces(STRING)
 This function will remove all spaces from a string. [INPUTS: STRING ; OUTPUTS: RESULT AS STRING]
