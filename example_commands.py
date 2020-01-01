@@ -24,8 +24,8 @@ else:
 
 from cltoolbox import logicgates
 
-print(int(logicgates.l_and(1,1))
+print(int(logicgates.l_and(1,1)))
 #Logical AND-Gate. Returns True or 1 when both values are True or 1.
 
-print(int(logicgates.l_xor(1,1))
+print(int(logicgates.l_xor(1,1)))
 #Logical XOR-Gate. Returns True or 1 when one of two values is equal to True or 1.
