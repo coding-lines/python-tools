@@ -2,8 +2,11 @@
 <b>An importable Python toolbox with tools for arrays, strings and simulated logic gates.</b>
 
 Classes:
+
 logicgates - Contains simulated AND,OR,NOT,XOR,NAND,XNOR, and NOR gates.
+
 arrtools - Contains array operations like random arays, average array value, or array to string
+
 strtools - Contains string operations like removing spaces, reading files in one line and writing to files in one line
 
 Functions:
