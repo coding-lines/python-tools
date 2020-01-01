@@ -1,4 +1,4 @@
-from cl-toolbox import arrtools
+from cltoolbox import arrtools
 
 print(arrtools.arr_avg(arrtools.arr_randint(1000,0,1)))
 #Generates 1000 random numbers into an array and calculates the average of the 1000 values
@@ -6,7 +6,7 @@ print(arrtools.arr_avg(arrtools.arr_randint(1000,0,1)))
 print(arrtools.arrtostr(["Hello",","," ","World","!"]))
 #Joins all of the contents of the array together
 
-from cl-toolbox import strtools
+from cltoolbox import strtools
 
 print(strtools.rmspaces("H ell      oWor l  d !"))
 #Removes all spaces out of the string
@@ -22,7 +22,7 @@ if x==1:
 else:
     print("An error occured!")
 
-from cl-toolbox import logicgates
+from cltoolbox import logicgates
 
 print(int(logicgates.l_and(1,1))
 #Logical AND-Gate. Returns True or 1 when both values are True or 1.
